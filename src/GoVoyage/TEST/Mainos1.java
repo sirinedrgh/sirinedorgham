@@ -13,7 +13,7 @@ public class Mainos1 {
      */
     public static void main(String[] args) {
        
-        //ajout d'un circuit sada9ni mel faza mta3 lemtar9a ena 3andi te5dem
+        
        ville v =new ville(788,"Eurpppaa","fraaaaance",7,8,"autriche","top","top1");
 
        IvilleDAO iv= new villeDAO();
