@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GoVoyage.GUI.ListeVilleDashController">
+    <stylesheets>
+        <URL value="@listevilledash.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="700.0" pickOnBounds="true">
+         <image>
+            <Image url="@528655.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="showPane" blendMode="COLOR_BURN" prefHeight="347.0" prefWidth="700.0" />
+   </children>
+</AnchorPane>

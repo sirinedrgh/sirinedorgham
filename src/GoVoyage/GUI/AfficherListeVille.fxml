@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GoVoyage.GUI.AfficherListeVilleController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="700.0" pickOnBounds="true">
+         <image>
+            <Image url="@3e640de11e_160511-ville5-43.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="villelist" blendMode="SOFT_LIGHT" cache="true" cacheHint="SCALE_AND_ROTATE" cacheShape="false" layoutX="3.0" layoutY="4.0" prefHeight="250.0" prefWidth="689.0" />
+   </children>
+</AnchorPane>
